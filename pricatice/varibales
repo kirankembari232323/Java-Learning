@@ -1,0 +1,23 @@
+varibales = holds data item of some type
+
+variable declaration
+int age;
+double salary;
+string name;
+boolean status;
+char ch;
+
+
+
+variable initialization
+int age = 21;
+double salary = 89000;
+string name = "java";
+boolean status = true;
+char ch = 'y';
+
+
+
+variable assignment
+int age = 30;
+double salary = 123000;
