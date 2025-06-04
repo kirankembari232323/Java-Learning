@@ -1,0 +1,9 @@
+//Polymorphism
+
+//a process where can sub class can re-defined the behaviour of the parent classs
+// ability to take a more than one form
+
+1) method overlloading
+2) method overriding - if you want add some extra functionality to parent method and use it into the child class we used overriding
+      for example , if you are using calcSalaary() from parent class and we have getBonus() method in child. to get total salry we need to add bonus also
+      so we can re-write the calcSalaary() in child class and use getBonus() to get total salary
