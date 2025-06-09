@@ -1,9 +1,9 @@
-class Student{
-	private int sid; //instance - object - heap
-	private String sname;
-	private double gpa;
-	private static String university ="Stanford";
-	private String city;
+public 	class Student{
+	 int sid; //instance - object - heap
+	 String sname;
+	 double gpa;
+	 static String university ="Stanford";
+	 String city;
 
 //Default constructor
 public Student(){
