@@ -50,6 +50,59 @@ List
 
      - ArrayList, LinkedList
 
+     🔸 1. Array
+Type: Fixed-size data structure
+
+Size: Must be declared at creation, can't grow/shrink
+
+Performance:
+
+Access: 🔹 Very fast (O(1))
+
+Insert/Delete: 🔸 Costly (O(n)) — shifting required
+
+Example:
+
+int[] arr = new int[5];
+arr[0] = 10;
+
+🔸 2. ArrayList
+Type: Resizable array (part of Java Collection Framework)
+
+Size: Grows dynamically
+
+Performance:
+
+Access: 🔹 Fast (O(1))
+
+Insert/Delete: 🔸 Slower than LinkedList (O(n)) if not at the end
+
+When to Use: When random access is frequent
+
+Example:
+
+ArrayList<Integer> list = new ArrayList<>();
+list.add(10);
+
+🔸 3. LinkedList
+Type: Doubly linked list (part of Collection Framework)
+
+Size: Grows dynamically
+
+Performance:
+
+Access: 🔸 Slower (O(n)) — must traverse nodes
+
+Insert/Delete: 🔹 Faster (O(1)) at head/tail
+
+When to Use: When insertions/deletions are frequent
+
+Example:
+
+LinkedList<Integer> linkedList = new LinkedList<>();
+linkedList.add(10);
+
+
 Set
     not allow duplicates, no ordered, 	
 
